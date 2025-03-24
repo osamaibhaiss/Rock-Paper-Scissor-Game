@@ -1,0 +1,42 @@
+# Ignore compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+
+# Ignore intermediate and build directories
+/.vs/
+/build/
+/bin/
+/Debug/
+/Release/
+/x64/
+/x86/
+/ipch/
+/*.VC.db
+
+# Ignore Visual Studio generated files
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.ncb
+*.sdf
+*.db
+*.VC.opendb
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+
+# Ignore logs and system files
+*.log
+*.DS_Store
+Thumbs.db
